@@ -108,7 +108,7 @@
   },
   "scripts": {
     "build": "gulp serve:dist",
-    "start": "start:server:prod",
+    "start": "gulp start:server:prod",
     "test": "gulp test",
     "update-webdriver": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update"
   },
